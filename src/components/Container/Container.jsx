@@ -5,3 +5,6 @@ return (
     <div className={css.container}>{children}</div>
 )
 }
+Container.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
