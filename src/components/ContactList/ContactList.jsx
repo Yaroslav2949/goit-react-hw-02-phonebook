@@ -1,4 +1,4 @@
-import PropTypes, { arrayOf } from 'prop-types'; // типізація
+import PropTypes from 'prop-types'; // типізація
 import css from './ContactList.module.css'; // стилізація
 
 export const ContactList =({contacts,onDeleteContact})=>{
